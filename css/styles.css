@@ -347,6 +347,9 @@ img {
 .section-one {
   padding-top: 188px;
   padding-bottom: 188px;
+  background-image: url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .title-one-page {
