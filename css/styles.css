@@ -469,3 +469,14 @@ img {
 .two-text {
   margin-top: 8px;
 }
+
+/* Icon */
+
+.list-icon-two {
+  display: flex;
+}
+
+.item-icon-two {
+  width: 40px;
+  height: 40px;
+}
