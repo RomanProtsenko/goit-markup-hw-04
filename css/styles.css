@@ -287,6 +287,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 /* main page two */
@@ -347,9 +348,14 @@ img {
 .section-one {
   padding-top: 188px;
   padding-bottom: 188px;
-  background-image: url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .title-one-page {
@@ -474,9 +480,32 @@ img {
 
 .list-icon-two {
   display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .item-icon-two {
   width: 40px;
   height: 40px;
+}
+
+.link-icon-two {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-icon-two:hover,
+.link-icon-two:focus {
+  background-color: #404bbf;
+}
+.list-icon-two-foot {
+}
+.item-icon-two-foot {
+}
+.link-icon-two-foot {
 }
