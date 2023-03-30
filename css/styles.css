@@ -631,3 +631,18 @@ img {
 .footer-sec-two {
   margin-left: 120px;
 }
+
+.link-icon-three {
+  fill: #8e8f99;
+}
+
+.link-icon-three:hover,
+.link-icon-three:focus {
+  fill: #404bbf;
+}
+
+.link-icon-three:hover,
+.link-icon-three:focus {
+  border: 1px solid #404bbf;
+  border-radius: 4px;
+}
