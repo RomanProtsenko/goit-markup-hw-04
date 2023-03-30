@@ -93,7 +93,7 @@ img {
 
 .footer-text {
   font-size: 16px;
-  line-height: 1.33;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
@@ -198,11 +198,17 @@ img {
 .two-section-one-item-button:hover {
   color: var(--brand-color);
   background-color: var(--hover-order);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .two-section-one-item-button:focus {
   background-color: var(--hover-order);
   color: var(--brand-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .adres-list-mail,
@@ -424,6 +430,12 @@ img {
   padding-bottom: 32px;
 }
 
+.team {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .section-four-photo {
   margin-bottom: 8px;
 }
@@ -436,6 +448,8 @@ img {
 .type-design,
 .type-marketing {
   padding: 12px 24px 12px 24px;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 /* Boxing page 2*/
@@ -448,12 +462,27 @@ img {
 .img-list-two {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  grid-row-gap: 48px;
 }
 
 .but-two-sec {
   padding-top: 96px;
+}
+
+.el-page-two {
+  margin-bottom: 48px;
+}
+.el-one,
+.el-two,
+.el-four,
+.el-five,
+.el-seven,
+.el-eight {
+  margin-right: 23px;
+}
+.el-page-two:hover {
+  border: 1px solid #f4f4fd;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .two-section-one-list {
@@ -560,11 +589,6 @@ img {
   align-items: center;
 }
 
-.link-icon-three:hover .svg-image-two,
-.link-icon-three:focus .svg-image-two {
-  till: #404bbf;
-}
-
 .foot {
   display: flex;
 }
@@ -581,7 +605,7 @@ img {
 .list-icon-two-foot {
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: 16px;
 }
 
 .item-icon-two-foot {
